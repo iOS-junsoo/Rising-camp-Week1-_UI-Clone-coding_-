@@ -28,7 +28,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oFI-PG-zDQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-307" y="-802"/>
+            <point key="canvasLocation" x="416" y="-838"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oQU-KP-ND2">
@@ -40,7 +40,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tKL-X7-nBe"/>
+                        <segue destination="loo-kr-P41" kind="relationship" relationship="rootViewController" id="LGe-Ax-iNd"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YJo-oU-tyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -83,6 +83,135 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MX-CH-KlU">
+                                <rect key="frame" x="37" y="289" width="66" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="특가페스티벌"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이정도면 싱글만렙 자취 17년 차 언니의 내 집 마련기" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxs-4V-pPi">
+                                <rect key="frame" x="17" y="761" width="185" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="특가 페스티벌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nv-QC-dYS">
+                                <rect key="frame" x="27" y="352" width="72" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWe-hF-dJr">
+                                <rect key="frame" x="316" y="369" width="83" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="행운이벤트"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="광고" translatesAutoresizingMaskIntoConstraints="NO" id="Pgi-tB-ugN">
+                                <rect key="frame" x="13" y="154" width="389" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="시공업체찾기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2d-Ag-3YQ">
+                                <rect key="frame" x="31" y="448" width="68" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="안목2" highlightedImage="안목2" translatesAutoresizingMaskIntoConstraints="NO" id="IrB-sh-hMJ">
+                                <rect key="frame" x="217" y="568" width="185" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="평수별집구경" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SsC-5L-COt">
+                                <rect key="frame" x="223" y="351" width="68" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="공간별사진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whU-NM-Nz4">
+                                <rect key="frame" x="325" y="352" width="57" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="안목1" translatesAutoresizingMaskIntoConstraints="NO" id="lJX-ZA-qmZ">
+                                <rect key="frame" x="17" y="568" width="185" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="안목 높여 내 방에도 녹일거야 😎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoy-iD-z1F">
+                                <rect key="frame" x="17" y="515" width="278" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqb-Mn-0JO">
+                                <rect key="frame" x="132" y="388" width="55" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="빠른시공상담"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오피스텔이라구요? 외국 잡지 같은 스타일링 만렙!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5D-Hs-vJZ">
+                                <rect key="frame" x="217" y="761" width="185" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmX-hK-Kcm">
+                                <rect key="frame" x="228" y="384" width="65" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="나홀로집에"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오늘의집배송" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1t-qN-S9N">
+                                <rect key="frame" x="126" y="353" width="68" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4oO-XU-eZL">
+                                <rect key="frame" x="132" y="288" width="66" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="오늘의집배송"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9t-my-ESF">
+                                <rect key="frame" x="325" y="294" width="55" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="공간별사진"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="나홀로집에" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fpa-NB-D9e">
+                                <rect key="frame" x="230" y="447" width="57" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="빠른시공상담" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJg-f7-VLI">
+                                <rect key="frame" x="126" y="447" width="68" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="행운 이벤트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z23-Id-y6n">
+                                <rect key="frame" x="323" y="448" width="60" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9W-Ye-dqG">
+                                <rect key="frame" x="228" y="294" width="56" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="평수별집구경"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrR-LG-2Ht">
+                                <rect key="frame" x="34" y="388" width="58" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="시공업체찾기"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -110,17 +239,420 @@
                         </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem id="Y73-h6-CEa">
-                                <imageReference key="image" image="cart" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="위 장바구니" renderingMode="original"/>
                             </barButtonItem>
                             <barButtonItem style="plain" id="Xos-Fa-iok">
-                                <imageReference key="image" image="bookmark" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="위 깃발" renderingMode="original"/>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1084" y="725"/>
+            <point key="canvasLocation" x="-1780" y="1471"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zhR-FW-ka6">
+            <objects>
+                <viewController id="p7x-iW-vCl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QVv-21-wX6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="광고" translatesAutoresizingMaskIntoConstraints="NO" id="t0M-FE-SOq">
+                                <rect key="frame" x="12" y="157" width="389" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qt-fG-GQ9">
+                                <rect key="frame" x="131" y="291" width="66" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="오늘의집배송"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMs-4E-Upw">
+                                <rect key="frame" x="227" y="297" width="56" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="평수별집구경"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQw-fR-e5n">
+                                <rect key="frame" x="324" y="297" width="55" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="공간별사진"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmm-53-2n9">
+                                <rect key="frame" x="33" y="391" width="58" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="시공업체찾기"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA9-uG-ajG">
+                                <rect key="frame" x="131" y="391" width="55" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="빠른시공상담"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bW7-TN-7al">
+                                <rect key="frame" x="227" y="387" width="65" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="나홀로집에"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08A-F4-8e8">
+                                <rect key="frame" x="315" y="372" width="83" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="행운이벤트"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="시공업체찾기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAb-Ve-vcM">
+                                <rect key="frame" x="30" y="451" width="68" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="특가 페스티벌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBe-uz-obG">
+                                <rect key="frame" x="26" y="355" width="72" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오늘의집배송" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGR-9b-qfQ">
+                                <rect key="frame" x="125" y="356" width="68" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="공간별사진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Oz-QT-tDy">
+                                <rect key="frame" x="324" y="355" width="57" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="나홀로집에" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLw-Mw-AaA">
+                                <rect key="frame" x="229" y="450" width="57" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="빠른시공상담" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pA-of-xLY">
+                                <rect key="frame" x="125" y="450" width="68" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="평수별집구경" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LD3-Vp-gqH">
+                                <rect key="frame" x="222" y="354" width="68" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQV-Nc-LMs">
+                                <rect key="frame" x="36" y="292" width="66" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="특가페스티벌"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="행운 이벤트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYf-HP-JTt">
+                                <rect key="frame" x="322" y="451" width="60" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="안목2" highlightedImage="안목2" translatesAutoresizingMaskIntoConstraints="NO" id="1BZ-By-npN">
+                                <rect key="frame" x="216" y="571" width="185" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="안목1" translatesAutoresizingMaskIntoConstraints="NO" id="abr-HY-whr">
+                                <rect key="frame" x="16" y="571" width="185" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="안목 높여 내 방에도 녹일거야 😎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKs-qz-8QZ">
+                                <rect key="frame" x="16" y="518" width="278" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이정도면 싱글만렙 자취 17년 차 언니의 내 집 마련기" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSa-Bg-iVn">
+                                <rect key="frame" x="16" y="764" width="185" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오피스텔이라구요? 외국 잡지 같은 스타일링 만렙!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTT-eu-8So">
+                                <rect key="frame" x="216" y="764" width="185" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="flo-ij-q30"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rF6-58-IG3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1125" y="1471"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9nD-wm-uSo">
+            <objects>
+                <viewController id="loo-kr-P41" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ju8-JF-8rk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="joS-b4-vEg">
+                                <rect key="frame" x="0.0" y="88" width="414" height="912"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Osw-qd-nGz">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0t-YP-idK">
+                                                <rect key="frame" x="37" y="200" width="66" height="58"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="특가페스티벌"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이정도면 싱글만렙 자취 17년 차 언니의 내 집 마련기" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQO-nl-9U3">
+                                                <rect key="frame" x="17" y="672" width="185" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="특가 페스티벌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epm-db-qa4">
+                                                <rect key="frame" x="27" y="263" width="72" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzK-46-CXo">
+                                                <rect key="frame" x="316" y="280" width="83" height="85"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="행운이벤트"/>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="광고" translatesAutoresizingMaskIntoConstraints="NO" id="QsS-0s-FG4">
+                                                <rect key="frame" x="13" y="65" width="389" height="118"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="시공업체찾기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2g-Ng-9Wu">
+                                                <rect key="frame" x="31" y="359" width="68" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="안목2" highlightedImage="안목2" translatesAutoresizingMaskIntoConstraints="NO" id="pWs-7l-l2L">
+                                                <rect key="frame" x="217" y="479" width="185" height="185"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="평수별집구경" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShF-nQ-6fx">
+                                                <rect key="frame" x="223" y="262" width="68" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="공간별사진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UzN-D9-Yuk">
+                                                <rect key="frame" x="325" y="263" width="57" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="안목1" translatesAutoresizingMaskIntoConstraints="NO" id="Zy8-nU-dka">
+                                                <rect key="frame" x="17" y="479" width="185" height="185"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="안목 높여 내 방에도 녹일거야 😎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e03-CA-WOT">
+                                                <rect key="frame" x="17" y="426" width="278" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pX-Ga-cof">
+                                                <rect key="frame" x="132" y="299" width="55" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="빠른시공상담"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오피스텔이라구요? 외국 잡지 같은 스타일링 만렙!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEm-ZC-YCG">
+                                                <rect key="frame" x="217" y="672" width="185" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmo-xn-8oY">
+                                                <rect key="frame" x="228" y="295" width="65" height="61"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="나홀로집에"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오늘의집배송" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXO-s7-dXE">
+                                                <rect key="frame" x="126" y="264" width="68" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vn-As-bZ3">
+                                                <rect key="frame" x="132" y="199" width="66" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="오늘의집배송"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAH-Nv-4Uc">
+                                                <rect key="frame" x="325" y="205" width="55" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="공간별사진"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="나홀로집에" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EtK-Pa-eJP">
+                                                <rect key="frame" x="230" y="358" width="57" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="빠른시공상담" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wST-fB-y9a">
+                                                <rect key="frame" x="126" y="358" width="68" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="행운 이벤트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzl-cA-1Tc">
+                                                <rect key="frame" x="323" y="359" width="60" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yL7-53-Zgc">
+                                                <rect key="frame" x="228" y="205" width="56" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="평수별집구경"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Joo-5w-qhL">
+                                                <rect key="frame" x="34" y="299" width="58" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="시공업체찾기"/>
+                                            </button>
+                                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VvI-Dx-sqf">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <items>
+                                                    <navigationItem id="zZ8-of-vvt">
+                                                        <leftBarButtonItems>
+                                                            <barButtonItem title="인기  " style="done" id="rmg-Tt-l1q">
+                                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </barButtonItem>
+                                                            <barButtonItem title="팔로잉 " style="done" id="NPp-an-1Uv">
+                                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </barButtonItem>
+                                                            <barButtonItem title="사진 " style="done" id="T1O-fO-XnY">
+                                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </barButtonItem>
+                                                            <barButtonItem title="집들이 " style="done" id="H79-Ea-T8u">
+                                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </barButtonItem>
+                                                            <barButtonItem title="노하우 " style="done" id="9sQ-Bk-Rcc">
+                                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </barButtonItem>
+                                                            <barButtonItem title="전문가집들이 " style="done" id="Dfh-uT-jlH">
+                                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </barButtonItem>
+                                                        </leftBarButtonItems>
+                                                    </navigationItem>
+                                                </items>
+                                            </navigationBar>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이정도면 싱글만렙 자취 17년 차 언니의 내 집 마련기" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ly6-wk-b8D">
+                                                <rect key="frame" x="17" y="923" width="185" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="안목2" highlightedImage="안목2" translatesAutoresizingMaskIntoConstraints="NO" id="Vnw-d6-681">
+                                                <rect key="frame" x="217" y="730" width="185" height="185"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="안목1" translatesAutoresizingMaskIntoConstraints="NO" id="Ckc-BP-P3p">
+                                                <rect key="frame" x="17" y="730" width="185" height="185"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오피스텔이라구요? 외국 잡지 같은 스타일링 만렙!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lV-rd-Rfq">
+                                                <rect key="frame" x="217" y="923" width="185" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="Kol-Ot-phX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Osw-qd-nGz" firstAttribute="trailing" secondItem="HY2-C7-jMi" secondAttribute="trailing" id="JJv-yc-sOb"/>
+                                    <constraint firstItem="Osw-qd-nGz" firstAttribute="top" secondItem="HY2-C7-jMi" secondAttribute="top" id="a41-5C-ys6"/>
+                                    <constraint firstItem="Osw-qd-nGz" firstAttribute="bottom" secondItem="HY2-C7-jMi" secondAttribute="bottom" id="emN-tf-nVN"/>
+                                    <constraint firstItem="Osw-qd-nGz" firstAttribute="width" secondItem="7Dr-ta-tXm" secondAttribute="width" id="lVA-jT-zP7"/>
+                                    <constraint firstItem="Osw-qd-nGz" firstAttribute="leading" secondItem="HY2-C7-jMi" secondAttribute="leading" id="pYl-gf-ebB"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="HY2-C7-jMi"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7Dr-ta-tXm"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mTq-gR-YzI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="joS-b4-vEg" secondAttribute="bottom" id="XTd-Ed-fFH"/>
+                            <constraint firstItem="joS-b4-vEg" firstAttribute="top" secondItem="mTq-gR-YzI" secondAttribute="top" id="cs7-dM-kGb"/>
+                            <constraint firstItem="joS-b4-vEg" firstAttribute="leading" secondItem="mTq-gR-YzI" secondAttribute="leading" id="hQD-1T-k1f"/>
+                            <constraint firstItem="mTq-gR-YzI" firstAttribute="trailing" secondItem="joS-b4-vEg" secondAttribute="trailing" id="xeX-t7-yj7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wgq-ZW-cJP">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="XQN-Lj-ueT">
+                            <view key="customView" contentMode="scaleToFill" id="x1t-Ib-emk">
+                                <rect key="frame" x="20" y="5.5" width="92" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZT4-UW-6Nv">
+                                        <rect key="frame" x="-7" y="0.0" width="297" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWP-Lc-69L">
+                                                <rect key="frame" x="0.0" y="-6" width="297" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </searchBar>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem style="plain" id="1dN-py-TFF">
+                                <imageReference key="image" image="위 장바구니" renderingMode="original"/>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="YFt-ig-EdE">
+                                <imageReference key="image" image="위 깃발" renderingMode="original"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xii-IF-awi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1084" y="743"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Oyp-g9-MZM">
@@ -175,6 +707,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_FF661569AD09-1" translatesAutoresizingMaskIntoConstraints="NO" id="sLh-yb-ZsX">
+                                <rect key="frame" x="0.0" y="142" width="414" height="671"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5Ov-ct-t7v"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -205,10 +741,10 @@
                         </view>
                         <rightBarButtonItems>
                             <barButtonItem id="Fbq-kF-Et5">
-                                <imageReference key="image" image="cart" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="위 장바구니" renderingMode="original"/>
                             </barButtonItem>
                             <barButtonItem style="plain" id="bbB-tm-hIs">
-                                <imageReference key="image" image="bookmark" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="위 깃발" renderingMode="original"/>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
@@ -233,7 +769,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Yy-6P-cH4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="480" y="-40"/>
+            <point key="canvasLocation" x="417" y="-40"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3NB-Vn-5M9">
@@ -271,6 +807,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7F542641D7B5-1" translatesAutoresizingMaskIntoConstraints="NO" id="uca-zf-OGJ">
+                                <rect key="frame" x="0.0" y="142" width="414" height="671"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OeU-bi-WL1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -300,17 +840,17 @@
                         </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem id="qa0-4j-bQc">
-                                <imageReference key="image" image="cart" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="위 장바구니" renderingMode="original"/>
                             </barButtonItem>
                             <barButtonItem style="plain" id="DM4-b4-JzR">
-                                <imageReference key="image" image="bookmark" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="위 깃발" renderingMode="original"/>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sxd-hi-IGc" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="461" y="725"/>
+            <point key="canvasLocation" x="416" y="725"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wOz-Cp-pyl">
@@ -370,6 +910,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9D76AE3B4CC5-1" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-gr-jHL">
+                                <rect key="frame" x="0.0" y="142" width="414" height="671"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5a3-E1-6EA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -378,10 +922,10 @@
                         <nil key="title"/>
                         <rightBarButtonItems>
                             <barButtonItem id="RQT-qt-jNb">
-                                <imageReference key="image" image="cart" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="위 장바구니" renderingMode="original"/>
                             </barButtonItem>
                             <barButtonItem style="plain" id="dUw-rg-OXe">
-                                <imageReference key="image" image="bookmark" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="위 깃발" renderingMode="original"/>
                             </barButtonItem>
                             <barButtonItem title="Item" id="wNE-8Q-bUy">
                                 <imageReference key="image" image="gearshape" catalog="system" renderingMode="original"/>
@@ -391,7 +935,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EwH-Kn-zRf" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1210" y="725"/>
+            <point key="canvasLocation" x="1183" y="725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="03k-PQ-1Ah">
@@ -401,41 +945,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="사진 올리기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbL-YI-dLT">
-                                <rect key="frame" x="20" y="528" width="137" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_12301D698953-1" translatesAutoresizingMaskIntoConstraints="NO" id="SZy-hR-QyT">
+                                <rect key="frame" x="0.0" y="142" width="414" height="671"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="동영상 올리기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42d-Kk-xIN">
-                                <rect key="frame" x="20" y="587" width="163" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="리뷰쓰기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Re-b9-Qg3">
-                                <rect key="frame" x="20" y="649" width="104" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="인테리어시공 리뷰쓰기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8U-vg-hB0">
-                                <rect key="frame" x="20" y="710" width="267" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="인테리어 질문하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOC-68-c8q">
-                                <rect key="frame" x="20" y="777" width="215" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WJt-j0-o68"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -448,10 +961,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bookmark" catalog="system" width="112" height="128"/>
-        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="IMG_12301D698953-1" width="1170" height="1875"/>
+        <image name="IMG_7F542641D7B5-1" width="1170" height="1875"/>
+        <image name="IMG_9D76AE3B4CC5-1" width="1170" height="1875"/>
+        <image name="IMG_FF661569AD09-1" width="1170" height="1864"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="공간별사진" width="158" height="160"/>
+        <image name="광고" width="1074" height="318"/>
+        <image name="나홀로집에" width="183" height="170"/>
+        <image name="빠른시공상담" width="158" height="158"/>
+        <image name="시공업체찾기" width="161" height="158"/>
         <image name="아래 마이페이지" width="54" height="48.333332061767578"/>
         <image name="아래 마이페이지c" width="47.666667938232422" height="39.333332061767578"/>
         <image name="아래 스토어" width="47" height="46.333332061767578"/>
@@ -461,6 +981,14 @@
         <image name="아래 플러스" width="48.333332061767578" height="47"/>
         <image name="아래 홈" width="31.333333969116211" height="47"/>
         <image name="아래 홈c" width="25.333333969116211" height="39.666667938232422"/>
+        <image name="안목1" width="514" height="513"/>
+        <image name="안목2" width="514" height="514"/>
+        <image name="오늘의집배송" width="183" height="170"/>
+        <image name="위 깃발" width="20.333333969116211" height="21.666666030883789"/>
+        <image name="위 장바구니" width="24.666666030883789" height="24"/>
+        <image name="특가페스티벌" width="183" height="170"/>
+        <image name="평수별집구경" width="159" height="158"/>
+        <image name="행운이벤트" width="999" height="1038"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
