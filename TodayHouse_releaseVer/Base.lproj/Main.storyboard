@@ -1,24 +1,412 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5d3-bu-7Qc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Rft-ZQ-eT4">
+            <objects>
+                <tabBarController id="5d3-bu-7Qc" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zis-1S-I5g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oVe-6J-N15" kind="relationship" relationship="viewControllers" id="bvW-7l-jhP"/>
+                        <segue destination="nXA-UN-xlW" kind="relationship" relationship="viewControllers" id="t1m-hb-RbW"/>
+                        <segue destination="DXI-sN-mUr" kind="relationship" relationship="viewControllers" id="flO-bh-lGC"/>
+                        <segue destination="BnH-6l-Nin" kind="relationship" relationship="viewControllers" id="jtV-cE-8J5"/>
+                        <segue destination="m6E-ct-hBj" kind="relationship" relationship="viewControllers" id="Kfj-nD-4wr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oFI-PG-zDQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307" y="-802"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oQU-KP-ND2">
+            <objects>
+                <navigationController id="oVe-6J-N15" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="아래 홈c" selectedImage="아래 홈" id="zNG-5F-Mjc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tj2-uK-9gh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tKL-X7-nBe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YJo-oU-tyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1084" y="-40"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TodayHouse_releaseVer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f11-ff-s6G">
+                                <rect key="frame" x="0.0" y="98" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="Ouz-U7-VPt">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="인기  " style="done" id="2t4-EW-nsT">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="팔로잉  " style="done" id="Is7-Y0-I5y">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="사진  " style="done" id="GyS-ce-cHr">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="집들이  " style="done" id="g2L-9o-xFx">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="노하우  " style="done" id="syH-bv-dKw">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="전문가집들이" style="done" id="3bL-ew-yWl">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qHM-hx-Uue">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="kvM-8m-F7e">
+                            <view key="customView" contentMode="scaleToFill" id="KcQ-k6-kw0">
+                                <rect key="frame" x="20" y="2" width="263" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OmY-pe-90b">
+                                        <rect key="frame" x="0.0" y="0.0" width="286" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="오늘의집 통합검색" translatesAutoresizingMaskIntoConstraints="NO" id="bky-pF-AvI">
+                                                <rect key="frame" x="0.0" y="-2" width="286" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </searchBar>
+                                        </subviews>
+                                    </view>
+                                </subviews>
+                            </view>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem id="Y73-h6-CEa">
+                                <imageReference key="image" image="cart" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="Xos-Fa-iok">
+                                <imageReference key="image" image="bookmark" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1084" y="725"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Oyp-g9-MZM">
+            <objects>
+                <navigationController id="nXA-UN-xlW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="아래 스토어" selectedImage="아래 스토어c" id="OhI-Lg-Yxw"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mMn-HI-KoX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mri-ef-oGd" kind="relationship" relationship="rootViewController" id="288-xx-dYb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vzg-eS-C44" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-345" y="-40"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YhZ-EO-TyF">
+            <objects>
+                <viewController id="mri-ef-oGd" customClass="ViewController" customModule="TodayHouse_releaseVer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zvu-Oc-F0D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lbx-R7-fC2">
+                                <rect key="frame" x="0.0" y="98" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="396-SN-ZkF">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="스토어홈 " style="done" id="hwt-uM-U6h">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem style="done" id="lzW-aW-O3R">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="베스트 " style="done" id="3Tb-R6-fgm">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="오늘의딜 " style="done" id="Weu-ds-lFC">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="초득가세일 " style="done" id="UKA-EM-6XD">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="가을페브릭" style="done" id="TIK-W5-aQ3">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Ov-ct-t7v"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hB7-mr-01U">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="mue-PY-CGu">
+                            <imageReference key="image" image="line.horizontal.3" catalog="system" renderingMode="original"/>
+                        </barButtonItem>
+                        <view key="titleView" contentMode="scaleToFill" id="bm3-jS-s2n">
+                            <rect key="frame" x="207" y="22" width="0.0" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xBE-1d-47T">
+                                    <rect key="frame" x="-148" y="-21" width="252" height="41"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <searchBar contentMode="redraw" fixedFrame="YES" placeholder="스토어검색" translatesAutoresizingMaskIntoConstraints="NO" id="BfI-Su-eIe">
+                                            <rect key="frame" x="0.0" y="-2" width="252" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </searchBar>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <rightBarButtonItems>
+                            <barButtonItem id="Fbq-kF-Et5">
+                                <imageReference key="image" image="cart" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="bbB-tm-hIs">
+                                <imageReference key="image" image="bookmark" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lbc-tZ-w9T" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-346.37681159420293" y="724.55357142857144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="foC-gm-7L7">
+            <objects>
+                <navigationController id="DXI-sN-mUr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="아래 인테리어 시공" selectedImage="아래 인테리어c" id="VRO-VY-5bA"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hhh-Un-lwI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Mlx-PQ-5B6" kind="relationship" relationship="rootViewController" id="j3t-DO-HOD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Yy-6P-cH4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="-40"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3NB-Vn-5M9">
+            <objects>
+                <viewController id="Mlx-PQ-5B6" customClass="ViewController" customModule="TodayHouse_releaseVer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="utj-wd-yMo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D8c-qj-vZt">
+                                <rect key="frame" x="0.0" y="98" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="9N8-fy-1Jt">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="인기  " style="done" id="JZ4-9w-Fnq">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="팔로잉  " style="done" id="ReU-E3-kbz">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="사진  " style="done" id="P3V-85-RgS">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="집들이  " style="done" id="6nE-D9-cQs">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="노하우  " style="done" id="1Ig-Pf-rip">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="전문가집들이" style="done" id="Jwb-ai-WHN">
+                                                <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OeU-bi-WL1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d6M-JW-uhS">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="VGo-t7-Vzy">
+                            <view key="customView" contentMode="scaleToFill" id="Bi8-lj-QZH">
+                                <rect key="frame" x="20" y="2" width="263" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VAh-j6-hMo">
+                                        <rect key="frame" x="0.0" y="0.0" width="286" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="전문가 검색" translatesAutoresizingMaskIntoConstraints="NO" id="D6h-1L-SsY">
+                                                <rect key="frame" x="0.0" y="-2" width="286" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </searchBar>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem id="qa0-4j-bQc">
+                                <imageReference key="image" image="cart" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="DM4-b4-JzR">
+                                <imageReference key="image" image="bookmark" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxd-hi-IGc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="461" y="725"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wOz-Cp-pyl">
+            <objects>
+                <navigationController id="m6E-ct-hBj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="아래 플러스" selectedImage="아래 플러스" id="Kql-Vo-hup"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uho-sC-Dlc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lHv-mh-vxu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1910" y="-40"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YTV-nn-h0g">
+            <objects>
+                <navigationController id="BnH-6l-Nin" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="아래 마이페이지" selectedImage="아래 마이페이지c" id="UJf-4o-qXr"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yD1-4b-zuc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="csY-4C-qRx" kind="relationship" relationship="rootViewController" id="vbw-sz-Zby"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j1q-Uo-8WT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1183" y="-40"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hr7-dj-mdc">
+            <objects>
+                <viewController id="csY-4C-qRx" customClass="ViewController" customModule="TodayHouse_releaseVer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E4E-LL-Rw7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ORu-gx-B5Z">
+                                <rect key="frame" x="0.0" y="98" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="Hyg-y7-ziU">
+                                        <barButtonItem key="leftBarButtonItem" title="                    프로필" style="done" id="WHa-qu-04u">
+                                            <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="나의 쇼핑                  " style="done" id="fGU-97-eLF">
+                                            <color key="tintColor" red="0.14508211609999999" green="0.1451086104" blue="0.14507374170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5a3-E1-6EA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cyh-PL-nlX">
+                        <nil key="title"/>
+                        <rightBarButtonItems>
+                            <barButtonItem id="RQT-qt-jNb">
+                                <imageReference key="image" image="cart" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="dUw-rg-OXe">
+                                <imageReference key="image" image="bookmark" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                            <barButtonItem title="Item" id="wNE-8Q-bUy">
+                                <imageReference key="image" image="gearshape" catalog="system" renderingMode="original"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EwH-Kn-zRf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1210" y="725"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bookmark" catalog="system" width="112" height="128"/>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="아래 마이페이지" width="54" height="48.333332061767578"/>
+        <image name="아래 마이페이지c" width="47.666667938232422" height="39.333332061767578"/>
+        <image name="아래 스토어" width="47" height="46.333332061767578"/>
+        <image name="아래 스토어c" width="29" height="39.666667938232422"/>
+        <image name="아래 인테리어 시공" width="66.333335876464844" height="48"/>
+        <image name="아래 인테리어c" width="57.666667938232422" height="42"/>
+        <image name="아래 플러스" width="48.333332061767578" height="47"/>
+        <image name="아래 홈" width="31.333333969116211" height="47"/>
+        <image name="아래 홈c" width="25.333333969116211" height="39.666667938232422"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
